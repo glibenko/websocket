@@ -1,0 +1,16 @@
+{
+  "name": "fe_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^6.5.3",
+    "ws": "^7.2.0"
+  }
+}

@@ -1,0 +1,53 @@
+.container {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.item {
+  padding: 10px;
+  box-shadow: 0 0 2px 1px rgb(0 0 0 / 30%);
+  border-radius: 6px;
+  min-width: 100px
+}
+
+/* .item.connected {
+  background: rgb(246, 185, 16);
+} */
+
+
+.name {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.value {
+  text-align: right;
+  color: #959494;
+  font-weight: 600;
+}
+
+.unit {
+  font-size: 10px;
+  position: relative;
+  top: 2px;
+  display: inline-block;
+}
+
+.btn {
+  margin: 10px auto;
+  background: rgb(57, 57, 252);
+  color: white;
+  border-radius: 6px;
+  text-align: center;
+  padding: 6px;
+  cursor: pointer;
+}

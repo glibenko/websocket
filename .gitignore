@@ -1,0 +1,10 @@
+.DS_STORE
+*.log
+/stats
+.idea
+**/node_modules
+/dist
+babel-cache.json
+.jestCache
+.webpackCache
+.coverage
